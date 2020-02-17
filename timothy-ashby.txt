@@ -24,13 +24,13 @@ https://codepen.io/Tashby/pen/JjdXOYR?editors=1100
     21. How do we select a p element with a single class of “human””? p.human
     22. What is a parent child selector? When would this be useful? The parent child selector selects all elements that are related to that element. It’s useful for selecting all elements that are within, above, around, or a part of an element.
     23. How do you select all links within a div with the class of sidebar?
-    24. What is a pseudo selector?
-    25. What do we use the change the spacing between lines?
-    26. What do we use to change the spacing between letters?
-    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
-    28. How do I add a 1px border around my div that is dotted and black?
-    29. How do I select everything on the page? 
-    30. How do I write a comment in CSS? /* */
+    24. What is a pseudo selector? It’s a keyword that you add to a css selector that declares an extra action based on something; such as hovering over an element
+    25. What do we use the change the spacing between lines? line-height
+    26. What do we use to change the spacing between letters? letter-spacing
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize? text-transform: uppercase, lowercase, and capitalize
+    28. How do I add a 1px border around my div that is dotted and black? border: 1px dotted black;
+    29. How do I select everything on the page? * selector
+    30. How do I write a comment in CSS? /* write your comments between the backslash and stars */
     31. How do I find out what file I am in, when I am using the command line? ls
     32. Using the command line - how do I see a list of files/folders in my current folder? ls
     33. How do I remove a file via the command line? Why do I have to be careful with this? The rm command. You can delete your system if you’re not careful.
@@ -42,9 +42,9 @@ https://codepen.io/Tashby/pen/JjdXOYR?editors=1100
 Stretch Questions
 
     1. What is the difference between an inline element and a block element? Blocks make an element become a block level element. Visually block elements will stack on top of each other. Whereas inline elements will appear in one line next to each other. 
-    2. What happens when an element is positioned absolutely? 
-    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
-    4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+    2. What happens when an element is positioned absolutely? It means that the element is placed at an exact location on the page based on the location and css properties, no matter what other elements are around it. The other elements will conform around it. 
+    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? You can use a % to indicate the size of the element. That way it will take up exactly the amount of space it needs based on the browser window.
+    4. Name 3 elements that are display block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
     5. In your own words, explain the box model. What is the fix for the box model? 
 
 
